@@ -1,0 +1,24 @@
+.title{
+    color: var(--primary-color); 
+    font-size: 220px;
+    position: relative;
+    grid-column: 1/5;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    color: var(--primary-color);
+    font-weight: 800;
+}
+
+.subtitle1{
+    grid-column: 1/4;
+    grid-row: 1;
+    font-size: 48px;
+    color:var(--color-text);
+    font-size: 48px;
+}
+
+.subtitle2{
+    color:var(--color-text);
+    font-size: 48px;
+}
