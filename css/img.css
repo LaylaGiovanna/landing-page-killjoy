@@ -1,0 +1,45 @@
+.logo-riot1 {
+  display: flex;
+  padding-left: 20px;
+}
+
+.container {
+  position: absolute;
+  height: 62.5px;
+  left: 261px;
+  top: 20px;
+  border: 3.5px solid var(--second-color);
+  border-radius: 15%;
+  background-color: var(--second-color);
+  gap: 32px;
+}
+
+.logo-valorant1 {
+  left: 293px;
+  display: flex;
+  text-align: center;
+}
+
+.img-fundo {
+  position: absolute;
+  width: 1401.46px;
+  height: 951.06px;
+  top: 128.94px;
+  left: 0px;
+  background-size: 75%;
+}
+
+.img-killjoy {
+  display: flex;
+  flex-direction: grid;
+  grid-column: 6/12;
+  height: 945px;
+  width: 648px;
+}
+
+.logo-valorant {
+    flex-direction: column;
+    justify-content: center;
+  grid-column: 12/12;
+  
+}

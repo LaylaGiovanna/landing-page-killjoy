@@ -1,0 +1,8 @@
+.description{
+    grid-area: description;
+    padding-top: 62px;
+    display: grid;
+    width: 457px;
+    height: 535px;
+    grid-template-rows: 154px 45px 400px;
+}
