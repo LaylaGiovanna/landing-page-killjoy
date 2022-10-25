@@ -10,13 +10,11 @@ body {
   height: 100vh;
   display: grid;
   background-color: var(--second-color);
-  font-family: "Oswald", sans-serif;
-  font-family: "Poppins", sans-serif;
-  grid-template-rows: auto 1fr auto;
-  grid-template-areas: 
-  "header"
-  "main"
-  "footer";
+  grid-template-rows: 10.5vh 1fr;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
 }
 
 header {
@@ -25,21 +23,24 @@ header {
   align-items: center;
   padding-left: 64px;
   font-family: 'Poppins', sans-serif;
+  font-weight: 700;
   background-color: var(--primary-color);
 }
 
 main {
   grid-area: main;
   display: grid;
-  background-size: 75%;
+  background-image: url(../img/imagem-fundo.png);
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 26px;
+  margin-top: 25px;
   margin-left: 64px;
+  grid-template-areas:
+    "description buttom image"
+    "footer footer  image";
+
 }
 
-footer{
+footer {
   grid-area: footer;
   background-color: var(--second-color);
 }
-
-
