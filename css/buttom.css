@@ -1,3 +1,23 @@
-.buttom{
-    /* grid-area: buttom; */
+.buttom-area {
+  width: 12.5rem;
+  height: 3.75rem;
+  background-color: var(--primary-color);
+  transform: translate(380%, -400%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-botao {
+  background-color: plum;
+}
+
+.buttom-center {
+  font-size: 2.25rem;
+  color: var(--color-text);
+  transform: translate();
+}
+
+.retangulo-branco-botao {
+  transform: translate(383%, -490%);
 }

@@ -9,15 +9,15 @@
   left: 261px;
   top: 20px;
   border: 2px solid var(--second-color);
-  border-radius: 20%;
+  border-radius: 24px;
   background-color: var(--second-color);
   gap: 32px;
 }
 
-.logo-valorant1 {
+.logo-valorant-1 {
   left: 293px;
   position: absolute;
-  width: 70px;
+  width: 50px;
   
 }
 
@@ -32,15 +32,19 @@
 }
 
 .img-killjoy {
-  /* grid-area: image; */
+  
   position: absolute;
   height: 85%;
-  transform: translate(0, -57.3%);
+  transform: translate(175%, -106%);
+  
 }
 
-.logo-valorant {
-  flex-direction: column;
+.image-valorant{
+  display: flex;
+  justify-content: flex-end;
+  place-items: center;
   justify-content: center;
-  grid-column: 12/12;
-
+  background-color: tomato;
+  /* transform: translateY(-120%); */
+  width: 100px;
 }
