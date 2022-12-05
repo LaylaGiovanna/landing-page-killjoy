@@ -8,11 +8,7 @@
   justify-content: center;
 }
 
-.div-botao {
-  background-color: plum;
-}
-
-.buttom-center {
+.buttom {
   font-size: 2.25rem;
   color: var(--color-text);
   transform: translate();

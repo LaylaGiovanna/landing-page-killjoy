@@ -7,8 +7,6 @@
   --padding-responsive: 44px;
 }
 
-
-
 body {
   height: 100vh;
   display: grid;
@@ -18,7 +16,7 @@ body {
     "header"
     "main"
     "footer";
-    user-select: none;
+  user-select: none;
 }
 
 header {
@@ -26,7 +24,7 @@ header {
   display: flex;
   align-items: center;
   padding-left: 64px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   background-color: var(--primary-color);
 }
@@ -36,16 +34,19 @@ main {
   margin-right: var(--padding-responsive);
   display: grid;
   background-image: url(../img/imagem-fundo.png);
-  grid-template-columns: 1fr .5fr 1fr;
+  background-size: 75%;
+  grid-template-columns: 1fr 0.5fr 1fr;
   margin-top: 25px;
   margin-left: var(--padding-responsive);
   grid-template-areas:
-    "description buttom image image"
-    "footer footer  image image";
-
+    "description buttom image"
+    "footer footer  image";
 }
 
 footer {
   grid-area: footer;
+  gap: 40px;
+  display: grid;
+  padding-left: var(--padding-responsive);
   background-color: var(--second-color);
 }
